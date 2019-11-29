@@ -50,7 +50,7 @@ curl -X POST -H 'Content-Type: application/json' -i http://localhost:8080/api/co
 
 ## TODOs and shortfalls
 
-- There are no automatic tests. While the code is generally designed to be testable, there was just not enough time to implement them, the more so to provided relevant coverage. And most of them would require a lot of scafolding, while the actual logic is pretty straightforward. Same for comments.
+- There are no automatic tests. While the code is generally designed to be testable, there was just not enough time to implement them, the more so to provide relevant coverage. And most of them would require a lot of scafolding, while the actual logic is pretty straightforward. Same for comments.
 - JooQ is unable to access the tables in the information_schema and (Postgre-specific) pg_catalog through its metamodel object. This is usually not necessarry. When needed, maybe a proper object model generation from the database schema might help to generate the model of these system schemas without too much work.
 - Every REST API call uses a separate connection, which takes time to initialize. This is something which might be hard to fix without bringing statefulness to the API.
 - There is no security whatsoever.
