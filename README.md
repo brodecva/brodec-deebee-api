@@ -1,6 +1,6 @@
 # Brodec DeeBee API Demo
 
-DeeBee API is a simplified database browser RESTful API based on Spring Boot and Jersey. As of now, it support latests Postgres dialects, but it can be, thanks to the usage almost completely standardized means easily extended to other SQL vendors. 
+DeeBee API is a simplified database browser RESTful API based on Spring Boot and Jersey. As of now, it support latests Postgres dialects, but it can be (thanks to the usage of almost completely standardized means) easily extended to other SQL vendors. 
 
 ## Key features
 
