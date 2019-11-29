@@ -63,6 +63,7 @@ mvn spring-boot:run -Dspring-boot.run.arguments=-u=5
 - There is no security whatsoever.
 - The preview implementation is intentionally reduced to limit and offset, but thanks to Jooq it would be trivial to implement conditions, aggregate function, sorting and other. Only array of arrays representation of the result set is implemented.
 - The resources are intentionally kept to required minimum (but they faithfully map all the available underlying Jooq attributes and thanks to the chosen soultion could be easily extended). And they are aimed to always require a separate call when a collection of objects is needed.
+- Enunciate is a bit obsolete library and the generation of demo pages within the documentation really does not work that well. Also, the documentation could be served by the Boot as well, ideally.
 
 ## Contributing
 This is just a throway project.
