@@ -48,13 +48,6 @@ curl -X POST -H 'Content-Type: application/json' -i http://localhost:8080/api/co
 ```
 .
 
-Alternatively, you can just use the application as CLI command, by including user's ID as argument of '-u' option. In this case, no server is run, and only the IoC capabilities of the Spring are employed:
-
-```bash
-mvn spring-boot:run -Dspring-boot.run.arguments=-u=5
-```
-.
-
 ## TODOs and shortfalls
 
 - There are no automatic tests. While the code is generally designed to be testable, there was just not enough time to implement them, the more so to provided relevant coverage. And most of them would require a lot of scafolding, while the actual logic is pretty straightforward. Same for comments.
